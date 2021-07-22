@@ -1,6 +1,6 @@
-# Gnu Emacs Manual (minimalist heuristicism)
+# Gnu Emacs Manual (Minimalist Heuristicist Approach)
 
-C- means CONTROL KEY
+C- means CONTROL KEY;
 M- means ALT KEY
 
 ```
@@ -36,7 +36,7 @@ C-x k
 copy
 ```console
 M-w
-```
+```means
 cut
 ```console
 C-w
