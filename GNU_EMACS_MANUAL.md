@@ -27,14 +27,6 @@ quit input session
 ```console
 C-]
 ```
-find file
-```console
-C-x C-f
-```
-save
-```console
-C-x C-s
-```
 save as
 ```console
 C-x C-w
@@ -131,12 +123,16 @@ enter key
 ```
 edit files dired
 ```console
-move to folder
+find file
+C-x C-f 
+/bin
+/opt
+~
+open emacs in folder
 M-x shell
 ls or ll
 C-x d
 m mark
-% m csv$ mark all with csv ending
 u unmark
 U unmark
 C copy
