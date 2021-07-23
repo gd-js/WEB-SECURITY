@@ -1,6 +1,6 @@
 # Gnu Emacs Manual for Pragmatists
 
-C- means CONTROL KEY
+C- means CONTROL KEY 
 M- means ALT KEY
  
 ```
