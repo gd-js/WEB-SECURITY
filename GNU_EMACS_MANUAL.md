@@ -14,13 +14,10 @@ emacs filename
 start shell
 ```console
 M-x shell
+```
 undo
 ```console
 C-x u
-```
-save
-```console
-C-x C-s
 ```
 quit emacs
 ```console
@@ -30,17 +27,29 @@ quit input session
 ```console
 C-]
 ```
-find-file
+find file
 ```console
 C-x C-f
 ```
-save-buffer
+save
 ```console
 C-x C-s
 ```
-kill-buffer
+save as
+```console
+C-x C-w
+```
+kill buffer
 ```console
 C-x k
+```
+close window
+```console
+C-0
+```
+close tab
+```console
+C-0 t
 ```
 copy
 ```console
@@ -56,7 +65,7 @@ C-y
 ```
 delete word
 ```console
-M-backspace key
+M-backspace
 ```
 delete line
 ```console
@@ -82,11 +91,21 @@ enter key quit search at cursor
 ```
 find replace
 ```console
-M-x M-%
+M-x replace-string
+y replace this one
+n skip to next
+! replace all
+Y replace all without verification
+C-g quit
 ```
 find replace regexp
 ```console
-M-x C-M-%
+M-x replace-regexp
+y replace this one
+n skip to next
+! replace all
+Y replace all without verification
+C-g quit
 ```
 find replace dired
 ```console
@@ -118,90 +137,28 @@ enter key
 edit files dired
 ```console
 M-x dired
-M-x C copy file
-M-x R rename file
-M-x D delete file or dir
-M-x + create dir
-M-x Z compress/decompress zip
-M-x q quit window
-M-x m mark file
-M-x u unmark file
-M-x U unmark all
-M-x g refresh
-M-x ^ go parent dir
-M-x > next sub dir
-M-x < previous sub dir
-M-x ! run shell on file at cursor
-```
-dired mark by regexp
-```console
+mark files:
 M-x %m html$ regex mark all html files
 M-x %m zip$ mark all zip files
 M-x %m txt$ mark all txt files
 M-x %m py$ mark all py files
 (and so forth)
+Q file replace regexp
+C copy file
+R rename file
+D delete file or dir
++ create dir
+Z compress/decompress zip
+m mark file
+u unmark file
+U unmark all
+g refresh
+^ go parent dir
+> next sub dir
+< previous sub dir
+! run shell on file at cursor
+q quit window
 ```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-```console
-
-```
-
-```console
-```
-
-```console
-
-```
-
-```console
-
-```
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-
-```console
-
-```
-```console
-
-```
-
-```console
-
-```
-
 ```console
 edit emacs init file
 ```console
