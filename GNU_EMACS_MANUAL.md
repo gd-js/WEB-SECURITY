@@ -87,7 +87,6 @@ M-x query-replace
 y replace this one
 n skip to next
 ! replace all
-Y replace all without verification
 C-g quit
 M-x replace-string
 enter key to replace all
@@ -98,7 +97,6 @@ M-x query-replace-regexp
 y replace this one
 n skip to next
 ! replace all
-Y replace all without verification
 C-g quit
 M-x replace-regexp
 enter to replace all
