@@ -1,4 +1,4 @@
-# Gnu Emacs Manual (Minimalist Heuristicist Approach)
+# Gnu Emacs Manual for Pragmatists
 
 C- means CONTROL KEY
 M- means ALT KEY
