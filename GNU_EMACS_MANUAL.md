@@ -124,7 +124,7 @@ enter key
 edit files dired
 ```console
 find file
-C-x C-f 
+C-x C-f
 /bin
 /opt
 ~
@@ -147,7 +147,4 @@ g refresh
 > next sub dir
 < previous sub dir
 q quit window
-```
-emacs init file
-```console
 ```
