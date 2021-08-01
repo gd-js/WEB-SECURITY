@@ -15,6 +15,14 @@ cd ~/src/WebKit
 make
 sudo make install
 
+svn update WebKit/Source --set-depth immediates
+svn update WebKit/Source/JavaScriptCore --set-depth infinity
+svn update WebKit/PerformanceTests
+svn update WebKit/Tools
+```
+
+install lates npm
+```console
 sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
