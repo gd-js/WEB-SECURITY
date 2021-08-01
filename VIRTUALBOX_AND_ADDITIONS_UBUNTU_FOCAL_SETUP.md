@@ -22,6 +22,6 @@ sudo apt install build-essential dkms linux-headers-generic
 sudo rcvboxadd setup
 ```
 
-### Install VM, eg. Kali Linux or more Ubuntu
+### Install VMs, eg. Kali Linux or more Ubuntu, as OVF files
 https://kali.org/get-kali/  
-https://www.osboxes.org/ubuntu/
+https://www.linuxvmimages.com/images/ubuntu-2004
