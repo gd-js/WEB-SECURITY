@@ -1,4 +1,4 @@
-# Gnu Emacs Data Clean Manual
+# Gnu Emacs Data Cleaning Manual
 
 ### C- means CONTROL KEY
 ### M- means ALT KEY
