@@ -11,7 +11,6 @@ sudo apt-get install gtk-doc-tools autoconf automake libtool libgtk2.0-dev libpa
 
 sudo svn checkout http://svn.webkit.org/repository/webkit/trunk ~/src/WebKit
 cd ~/src/WebKit
-./autogen.sh --prefix=/usr
 make
 sudo make install
 
