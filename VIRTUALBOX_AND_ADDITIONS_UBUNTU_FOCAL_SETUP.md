@@ -1,7 +1,5 @@
 # Install Virtualbox on Ubuntu 20.4 plus Guest Additions
 
-update to latest Virtualbox version and reboot after installation
-
 ### Get Dependencies
 ```console
 sudo apt update && sudo apt upgrade
@@ -30,12 +28,10 @@ sudo rcvboxadd setup
 ```
 
 ### Debugging
-```console
-rm -r /etc/init.d/vboxdrv
-rm -r /var/lib/update-rc.d/vboxdrv 
-apt-get install virtualbox virtualbox-dkms virtualbox-guest-utils virtualbox-guest-additions virtualbox-qt
-sudo /etc/init.d/vboxdrv setup
-```
+
+update to latest version via
+https://www.virtualbox.org/wiki/Downloads
+reboot
 
 ### Install VMs like Kali Linux or Ubuntu as OVA files
 https://kali.org/get-kali/  
