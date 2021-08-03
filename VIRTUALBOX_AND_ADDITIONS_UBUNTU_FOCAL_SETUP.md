@@ -1,6 +1,6 @@
 # Install Virtualbox on Ubuntu 20.4 plus Guest Additions
 
-update to latest Virtualbox version and reboot liberally
+update to latest Virtualbox version and reboot after installation
 
 ### Get Dependencies
 ```console
