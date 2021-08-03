@@ -1,8 +1,8 @@
 # Install Virtualbox on Ubuntu 20.4 plus Guest Additions
 
-always update to latest Virtualbox version and reboot liberally
+update to latest Virtualbox version and reboot liberally
 
-### Dependencies
+### Get Dependencies
 ```console
 sudo apt update && sudo apt upgrade
 sudo apt-get install virtualbox-dkms
