@@ -1,5 +1,10 @@
 # Install Virtualbox on Ubuntu 20.4 plus Guest Additions
 
+### Get dependencies
+```console
+sudo apt update && sudo apt upgrade
+sudo apt-get install virtualbox-dkms
+```
 ## Install Virtualbox
 
 add oracle repo gpg key and download virtualbox
