@@ -29,9 +29,9 @@ sudo rcvboxadd setup
 
 ### Debugging
 
-update to latest version via
-https://www.virtualbox.org/wiki/Downloads
-reboot
+update to latest version via  
+https://www.virtualbox.org/wiki/Downloads  
+reboot  
 
 ### Install VMs like Kali Linux or Ubuntu as OVA files
 https://kali.org/get-kali/  
