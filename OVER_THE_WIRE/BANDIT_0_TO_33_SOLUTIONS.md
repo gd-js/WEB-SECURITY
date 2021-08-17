@@ -1,60 +1,73 @@
 # Over The Wire Wargames Bandit Solutions
 
-_always use zsh shell!_
+_tip: always use zsh shell!_
 
 Bandit 0
 ```console
-ssh
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+bandit0
+exit
 ```
 
 Bandit 1
 ```console
-ssh
+/ cat readme
+exit
 ```
 
 Bandit 2
 ```console
-ssh
+cat ./- tab to autofill
+exit
 ```
 
 Bandit 3
 ```console
-ssh
+cat ./s tab to autofill
+exit
 ```
 
 Bandit 4
 ```console
-ssh
+find cat ./.hidden
+exit
 ```
 
 Bandit 5
 ```console
-ssh
+file ./-file*
+cat ./-file07
+exit
 ```
 
 Bandit 6
 ```console
-ssh
+find / -readable !-executable -size 1033c
+exit
 ```
 
 Bandit 7
 ```console
-ssh
+find / -user bandit7 -group bandit6 -size 44c
+cat 
+exit
 ```
 
 Bandit 8
 ```console
-ssh
+sort data.txt | uniq -u
+exit
 ```
 
 Bandit 9
 ```console
-ssh
+strings data.txt
+exit
 ```
 
 Bandit 10
 ```console
-ssh
+cat data.txt 
 ```
 
 Bandit 11
