@@ -1,4 +1,4 @@
-# Over The Wire Wargames Solutions
+# Over The Wire Wargames Bandit Solutions
 
 _always use zsh shell!_
 
