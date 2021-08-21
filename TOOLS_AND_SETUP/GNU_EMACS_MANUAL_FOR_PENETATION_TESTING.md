@@ -148,4 +148,6 @@ q quit window
 ```
 use emacs web browser
 ```console
+M-x browse-url RET url RET
+
 ```
