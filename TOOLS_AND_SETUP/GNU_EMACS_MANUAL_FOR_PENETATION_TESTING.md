@@ -1,4 +1,4 @@
-# Gnu Emacs Penetration Testing Manual
+# Gnu Emacs Manual For Penetration Testing
 
 ### C- means CONTROL KEY
 ### M- means ALT KEY
@@ -148,6 +148,6 @@ q quit window
 ```
 use emacs web browser
 ```console
-M-x browse-url RET url RET
+M-x eww
 
 ```
