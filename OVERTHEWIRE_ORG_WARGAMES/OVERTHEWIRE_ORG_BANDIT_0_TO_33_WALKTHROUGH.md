@@ -1,6 +1,13 @@
 # Over The Wire Wargames Bandit Solutions
 
-_tips: always use zsh shell, use explainshell.com_
+_use www.explainshell.com_
+
+install zshell
+```console
+sudo apt update
+sudo apt upgrade
+sudo apt install zsh
+```
 
 Redundant Logging in procedure as in Level 0
 ```console
