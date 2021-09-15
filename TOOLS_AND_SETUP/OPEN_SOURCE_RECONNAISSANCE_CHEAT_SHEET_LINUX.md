@@ -25,6 +25,13 @@ https://github.com/iojw
 whatsmyname  
 https://github.com/WebBreacher  
 
-video, photo  
+maigret  
+https://github.com/code-developers/maigret  
+
+video, photo, pictures  
 https://www.4kdownload.com/de/products/product-stogram  
-http://exif.regex.info/exif.cgi﻿  
+https://weverify.eu/verification-plugin/  
+https://thatsthem.com/  
+https://truepeoplesearch.com/  
+https://pimeyes.com/  
+  

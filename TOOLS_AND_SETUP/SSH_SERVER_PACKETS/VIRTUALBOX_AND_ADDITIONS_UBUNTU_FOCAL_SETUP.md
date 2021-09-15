@@ -2,7 +2,8 @@
 
 ### Get Dependencies
 ```console
-sudo apt update && sudo apt upgrade
+sudo apt update
+sudo apt upgrade
 sudo apt-get install virtualbox-dkms
 ```
 ## Install Virtualbox
@@ -11,7 +12,8 @@ add oracle repo gpg key and download virtualbox
 ```console
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"
-sudo apt update && sudo apt install virtualbox-6.0
+sudo apt update
+sudo apt install virtualbox-6.0
 
 ```
 remove virtualbox
@@ -35,4 +37,4 @@ reboot
 
 ### Install VMs like Kali Linux or Ubuntu as OVA files
 https://kali.org/get-kali/  
-https://www.linuxvmimages.com/images/ubuntu-2004
+https://www.linuxvmimages.com/images/ubuntu-2004  
