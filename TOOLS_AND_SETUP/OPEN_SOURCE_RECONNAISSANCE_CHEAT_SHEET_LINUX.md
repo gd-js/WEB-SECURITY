@@ -13,6 +13,9 @@ https://github.com/aboul3la/Sublist3r
 theHarvester  
 https://github.com/laramies/theHarvester  
 
+whois  
+https://github.com/richardpenman  
+
 holehe  
 https://github.com/megadose/holehe  
 
@@ -27,7 +30,7 @@ https://github.com/WebBreacher
 
 maigret  
 https://github.com/code-developers/maigret  
-
+ 
 video, photo, pictures  
 https://www.4kdownload.com/de/products/product-stogram  
 https://weverify.eu/verification-plugin/  
