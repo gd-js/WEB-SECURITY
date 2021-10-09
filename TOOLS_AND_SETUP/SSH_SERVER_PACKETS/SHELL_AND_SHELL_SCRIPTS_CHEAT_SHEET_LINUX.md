@@ -1,8 +1,8 @@
-# Shell Scripts Cheat Sheet for Linux
+# Shell and Shell Scripts Cheat Sheet Linux
 
 _file suffix is .sh_  
 _remember to chmod a+rx file.sh_  
-_remeber to use explainshell.com!_  
+_use www.explainshell.com_  
 
 install zshell
 ```console
@@ -10,10 +10,54 @@ sudo apt update
 sudo apt upgrade
 sudo apt install zsh
 ```
-
 .zsh shebang
 ```console
 #!/bin/zsh
+
+in python3
+```console
+import os
+import time
+os.popen()
+os.system()
+time.asctime()
+exc_type, exc_type, traceback
+```
+files
+```console
+ls -la
+ps
+ps alx
+ps alx | grep ^-
+cd
+pwd
+mkdir
+touch
+rm
+rm -rf
+```
+awk
+```console
+```
+sed
+```console
+```
+rsync
+```console
+```
+grep
+```console
+grep -iaR
+```
+find
+```console
+```
+stdin (0) stdout (1) stderr (2)
+```console
+2>/dev/null
+> stdout.txt
+1> stdout.txt
+```
 ```
 awk pick from input stream
 ```console
@@ -22,7 +66,6 @@ ls -l | awk '{print $5}'
 find with xargs
 ```console
 find . -name '*.html' -print0 | xargs -0 file
-
 ```
 sed delete lines
 ```console
@@ -43,7 +86,6 @@ sed delete all lines of input
 sed '/DELETE/d'
 ```
 while loop
-
 ```console
 #!/bin/zsh
 i=0
@@ -57,16 +99,13 @@ done
 for loop
 ```console
 #!/bin/zsh
-
 for (( counter=1; counter<=10; counter++ ))
 do
 echo -n "$counter "
 done
-
 printf "\n"
 ```
 user input
-
 ```console
 #!/bin/zsh
 
@@ -76,7 +115,6 @@ read something
 echo "You Entered: $something"
 ```
 if statement
-
 ```console
 #!/bin/zsh
 
@@ -89,7 +127,6 @@ echo "Number is greater than 10."
 fi
 ```
 if else
-
 ```console
 #!/bin/zsh
 
@@ -102,7 +139,6 @@ echo "It is a two digit number"
 fi
 ```
 and operator
-
 ```console
 #!/bin/zsh
 
@@ -116,7 +152,6 @@ echo "Odd Number"
 fi
 ```
 or operator
-
 ```console
 #!/bin/zsh
 
@@ -131,7 +166,6 @@ echo "You lost!"
 fi
 ```
 elif
-
 ```console
 #!/bin/zsh
 
@@ -149,7 +183,6 @@ echo "Number is less than 10."
 fi
 ```
 switch
-
 ```console
 #!/bin/zsh
 
@@ -173,7 +206,6 @@ echo "First Argument = $1"
 echo "Second Argument = $2"
 ```
 send mails
-
 ```console
 #!/bin/zsh
 recipient=”admin@example.com”
@@ -183,7 +215,6 @@ message=”Welcome to UbuntuPit”
 ```
 
 sleep
-
 ```console
 #!/bin/bash
 echo "How long to wait?"
@@ -193,14 +224,12 @@ echo "Waited for $time seconds!"
 ```
 
 print last updated
-
 ```console
 #!/bin/zsh
 ls -lrt | grep ^- | awk 'END{print $NF}'
 ```
 
 staying updated
-
 ```console
 #!/bin/zsh
 echo -e "\n$(date "+%d-%m-%Y --- %T") --- Starting work\n"
@@ -211,7 +240,6 @@ apt-get autoclean
 echo -e "\n$(date "+%T") \t Script Terminated"
 ```
 monitor disk usage
-
 ```console
 #!/bin/sh
 # set -x
@@ -247,7 +275,6 @@ else
 fi
 ```
 monitor cpu usage
-
 ```console
 #!/bin/bash
 while [ true ] ;do
@@ -256,13 +283,11 @@ used=`free -m |awk 'NR==3 {print $4}'`
 if [ $used -lt 1000 ] && [ $used -gt 800 ]; then
 echo "Free memory is below 1000MB. Possible memory leak!!!" | /bin/mail -s "HIGH MEMORY ALERT!!!" user@mydomain.com
 
-
 fi
 sleep 5
 done
 ```
 add new users
-
 ```console
 #!/bin/bash
 # Script to add a user to Linux system

@@ -43,9 +43,3 @@ Use crypto library to add unique salt to all user data
 Demand strong password input  
 
 Never identify a user through cookies  
-
-
-
-
-
-

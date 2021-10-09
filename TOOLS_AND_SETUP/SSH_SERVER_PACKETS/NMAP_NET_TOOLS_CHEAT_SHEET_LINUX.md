@@ -36,9 +36,13 @@ check public ip
 ifconfig
 curl https://ipinfo.io/ip
 ```
-check iptables stauts
+iptables status
 ```console
 sudo iptables -L -v
+```
+netstat check ports
+```console
+netstat -anutp
 ```
 nmap scan localhost
 ```
