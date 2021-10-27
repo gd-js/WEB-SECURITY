@@ -1,4 +1,4 @@
-# NMAP and net tools cheat sheet linux
+# NMAP, iptables, nettools cheat sheet linux
 
 _use www.explainshell.com_  
 
@@ -88,7 +88,7 @@ sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
 ```
 iptables complex commands
 ```console
-sudo iptables -A 
+sudo iptables -A
 -i <interface> -p <protocol> -s <source> --scource-range --dport  -j <target> --line-numbers
 ```
 iptables packets from ip
