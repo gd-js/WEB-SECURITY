@@ -27,7 +27,7 @@ http://en.wikipedia.org/wiki/Network_Time_Protocol Network Time Protocol
 
 ## Open Systems Interconnection model technologies
 
-1.  Application layer
+1.  Application layer  
 9P, Plan 9 from Bell Labs distributed file system protocol  
 AFP, Apple Filing Protocol  
 APPC, Advanced Program-to-Program Communication  
@@ -102,14 +102,14 @@ X.500, Directory Access Protocol (DAP)
 XMPP, Extensible Messaging and Presence Protocol  
 DNS, Domain Name Services  
 
-2.  Presentation layer
+2.  Presentation layer  
 MIME  
 XDR   
 ASN.1  
 ASCII  
 PGP  
 
-3.  Session layer
+3.  Session layer  
 Named pipe  
 NetBIOS  
 SAP  
@@ -118,14 +118,14 @@ RTP
 SOCKS  
 SPDY  
 
-4.  Transport layer
+4.  Transport layer  
 TCP  
 UDP  
 SCTP  
 DCCP  
 SPX  
 
-5.  Network layer
+5.  Network layer  
 IPv4  
 IPv6  
 ICMP  
@@ -136,7 +136,7 @@ AppleTalk
 X.25  
 PLP  
 
-6.  Data link layer
+6.  Data link layer  
 ATM  
 ARP  
 IS-IS  
@@ -157,7 +157,7 @@ PPP
 X.25LAPB  
 Q.922 LAPF  
 
-7.  Physical layer
+7.  Physical layer  
 RS-232  
 RS-449  
 ITU-T V-Series  

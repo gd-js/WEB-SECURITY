@@ -3,7 +3,7 @@
 _use Adblockers, Privacy Badger, uBlockOrigin, User-Agent Switcher, Location Guard, NoScript, Canvas Fingerprint Defender, Decentral Eyes, Local CDN, Cookie Autodelete, SiteBleacher_
 
 _use dedicated wifi, machine and vm_
- 
+
 amass  
 https://github.com/OWASP/Amass  
 
@@ -30,11 +30,10 @@ https://github.com/WebBreacher
 
 maigret  
 https://github.com/code-developers/maigret  
- 
+
 video, photo, pictures  
 https://www.4kdownload.com/de/products/product-stogram  
 https://weverify.eu/verification-plugin/  
 https://thatsthem.com/  
 https://truepeoplesearch.com/  
 https://pimeyes.com/  
-  
