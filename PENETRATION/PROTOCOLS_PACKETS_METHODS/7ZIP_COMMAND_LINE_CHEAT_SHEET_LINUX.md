@@ -1,6 +1,5 @@
 # 7zip command line cheat sheet linux
-
-install 7zip coommand line
+install 7zip command line
 ```console
 sudo apt update
 sudo apt upgrade
