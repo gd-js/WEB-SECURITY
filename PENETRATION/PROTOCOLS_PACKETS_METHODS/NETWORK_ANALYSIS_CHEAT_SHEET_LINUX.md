@@ -7,7 +7,6 @@
 sudo apt install curl
 sudo apt install zsh
 sudo apt install net-tools
-sudo apt install iptables
 sudo apt install nmap
 ```
 basic analysis
@@ -22,9 +21,6 @@ check public ip
 ifconfig
 curl https://ipinfo.io/ip
 ```
-iptables status
-```console
-sudo iptables -L -v
 ```
 netstat check ports
 ```console
@@ -43,40 +39,6 @@ enable http, ssh, ssl ports
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-```
-iptables complex commands
-```console
-sudo iptables -A
--i <interface> -p <protocol> -s <source> --scource-range --dport  -j <target> --line-numbers
-```
-iptables packets from ip
-```console
-sudo iptables -A INPUT -s 192.168.1.3 -j ACCEPT
-sudo iptables -A INPUT -s 192.168.1.3 -j DROP
-```
-iptables clear rules
-```console
-sudo iptables -F
-```
-iptables delete specific rule
-```console
-sudo iptables -L --line-numbers
-sudo ip tables -D INPUT 3
-```
-iptables persist/override startup rules
-```console
-sudo /sbin/iptables-save
-```
-iptables block all ports except declared
-```console
-sudo iptables -F
-sudo iptables -P INPUT DROP
-sudo iptables -A INPUT -i lo -p all -j ACCEPT
-sudo iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-sudo iptables -A INPUT -j DROP
 ```
 nmap scan target
 ```console
