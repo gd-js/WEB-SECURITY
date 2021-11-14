@@ -1,7 +1,7 @@
 # File Analysis Cheat Sheet Linux
 ```
-#xxd
-#strings
+sudo apt install xxd
+sudo apt install strings
 sudo apt install binwalk
 sudo apt install file
 sudo apt install exiftool
