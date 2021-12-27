@@ -215,4 +215,3 @@ Bandit 33 Level 34 Walkthrough
 ```console
 ssh
 ```
-
