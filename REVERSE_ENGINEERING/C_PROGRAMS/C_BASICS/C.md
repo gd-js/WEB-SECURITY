@@ -1,5 +1,8 @@
 # C Cheat Sheet Linux
 
+_https://handsonnetworkprogramming.com/_
+_https://hpbn.co/_
+
 gcc
 ```console
 sudo apt install gcc
