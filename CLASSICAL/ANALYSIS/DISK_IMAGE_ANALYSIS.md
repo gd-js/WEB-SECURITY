@@ -4,6 +4,12 @@ sudo apt install autopsy
 sudo apt install fdisk
 sudo apt install testdisk
 ```
+ssd anti forensics
+```
+always a priori encryption of entire filesystem at ubuntu installation with 10+ character password
+do shred -n command in home folders
+reinstall new OS several times + encryption from USB dongle
+```
 autopsy
 ```
 usage: /usr/bin/autopsy [-c] [-C] [-d evid_locker] [-i device filesystem mnt] [-p port] [remoteaddr]
